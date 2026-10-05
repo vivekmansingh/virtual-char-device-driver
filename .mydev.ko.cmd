@@ -1,0 +1,1 @@
+savedcmd_/mnt/d/virtual-char-device-driver/mydev.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /mnt/d/virtual-char-device-driver/mydev.ko /mnt/d/virtual-char-device-driver/mydev.o /mnt/d/virtual-char-device-driver/mydev.mod.o;  make -f ./arch/x86/Makefile.postlink /mnt/d/virtual-char-device-driver/mydev.ko

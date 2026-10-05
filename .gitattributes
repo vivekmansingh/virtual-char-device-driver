@@ -1,0 +1,8 @@
+# Force Unix (LF) line endings for files that run on Linux, even when the
+# repository is checked out on Windows.  CRLF breaks bash scripts and Makefiles.
+*.sh      text eol=lf
+Makefile  text eol=lf
+*.c       text eol=lf
+*.h       text eol=lf
+*.cpp     text eol=lf
+*.md      text eol=lf

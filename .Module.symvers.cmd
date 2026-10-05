@@ -1,0 +1,1 @@
+savedcmd_/mnt/d/virtual-char-device-driver/Module.symvers :=  scripts/mod/modpost -M -m       -o /mnt/d/virtual-char-device-driver/Module.symvers -T /mnt/d/virtual-char-device-driver/modules.order -i Module.symvers -e 
